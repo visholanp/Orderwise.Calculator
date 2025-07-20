@@ -8,7 +8,7 @@ namespace Orderwise.Calculator.Models
     public class Division : Operation
     {
         /// <summary>
-        /// Divides the first number by the second number.
+        /// Divides the first number by the second number and returns the result.
         /// Throws exception if division by zero is attempted.
         /// </summary>
         public override double Calculate(double a, double b)

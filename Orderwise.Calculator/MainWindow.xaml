@@ -16,31 +16,31 @@
 
         <UniformGrid Grid.Row="1" Columns="4" Rows="5" Margin="0" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
             <!-- Row 1 -->
-            <Button Content="7" Click="NumberButton_Click"/>
-            <Button Content="8" Click="NumberButton_Click"/>
-            <Button Content="9" Click="NumberButton_Click"/>
-            <Button Content="/" Click="OperatorButton_Click"/>
+            <Button Content="7" Click="NumberButton_Click" Height="Auto" Width="Auto"/>
+            <Button Content="8" Click="NumberButton_Click" Height="Auto" Width="Auto"/>
+            <Button Content="9" Click="NumberButton_Click" Height="Auto" Width="Auto"/>
+            <Button Content="/" Click="OperatorButton_Click" Height="Auto" Width="Auto"/>
 
             <!-- Row 2 -->
-            <Button Content="4" Click="NumberButton_Click"/>
-            <Button Content="5" Click="NumberButton_Click"/>
-            <Button Content="6" Click="NumberButton_Click"/>
-            <Button Content="*" Click="OperatorButton_Click"/>
+            <Button Content="4" Click="NumberButton_Click" Height="Auto" Width="Auto"/>
+            <Button Content="5" Click="NumberButton_Click" Height="Auto" Width="Auto"/>
+            <Button Content="6" Click="NumberButton_Click" Height="Auto" Width="Auto"/>
+            <Button Content="*" Click="OperatorButton_Click" Height="Auto" Width="Auto"/>
 
             <!-- Row 3 -->
-            <Button Content="1" Click="NumberButton_Click"/>
-            <Button Content="2" Click="NumberButton_Click"/>
-            <Button Content="3" Click="NumberButton_Click"/>
-            <Button Content="-" Click="OperatorButton_Click"/>
+            <Button Content="1" Click="NumberButton_Click" Height="Auto" Width="Auto"/>
+            <Button Content="2" Click="NumberButton_Click" Height="Auto" Width="Auto"/>
+            <Button Content="3" Click="NumberButton_Click" Height="Auto" Width="Auto"/>
+            <Button Content="-" Click="OperatorButton_Click" Height="Auto" Width="Auto"/>
 
             <!-- Row 4 -->
-            <Button Content="0" Click="NumberButton_Click"/>
-            <Button Content="." Click="NumberButton_Click"/>
-            <Button Content="=" Click="EqualsButton_Click"/>
-            <Button Content="+" Click="OperatorButton_Click"/>
+            <Button Content="0" Click="NumberButton_Click" Height="Auto" Width="Auto"/>
+            <Button Content="," Click="NumberButton_Click" Height="Auto" Width="Auto"/>
+            <Button Content="=" Click="EqualsButton_Click" Height="Auto" Width="Auto"/>
+            <Button Content="+" Click="OperatorButton_Click" Height="Auto" Width="Auto"/>
 
             <!-- Row 5 -->
-            <Button Content="C" Click="ClearButton_Click" Grid.ColumnSpan="4"/>
+            <Button Content="C" Click="ClearButton_Click" Grid.ColumnSpan="4" Height="Auto" Width="Auto"/>
         </UniformGrid>
     </Grid>
 </Window>
